@@ -40,7 +40,7 @@ while cap.isOpened():
         
         result = result[0]
      
-        if result > 0 and result > val:
+        if result > 0 and result != val:
             val = result
             result = str(result)
             print(result)
